@@ -1,0 +1,5 @@
+1.znacznik o klasie nav .nav_1 ma wyraźnie wiekszą wysokośc od na ul li
+2.div.login_container nie przesówa się w prawo pomimo:"marrgin-right:10px" i "right:10px"
+3.linijki 15 do 40: nie wczytują się obrazy tła pomimo róznich kombinacji z kropkami i ścieżką bezwzględną. Obrazki działały tylko jak dołączałem je do html w <img>,a potem przestały dziać w ogóle[sic!].Nie działały za to atrybuty css w klasie .section{height: 100%;background-size: cover;}.Chciałem zrobic cos w tym stylu: https://www.youtube.com/watch?v=PWoOpJtkyjI&t=912s
+
+4.Najmniej instotna kwestia to czy mozliwe jest skalowanie obrazów wewnątrz div nadajac mu width i heigth. Prubowałem to zrobic dla ikonek w prawym dolnym rogu, ale coś nie szło. Musiałem przeskalowac obrazy w GIMPie i zrobiła się pikseloza co widac najbardziej w ikonce Tweetera. 
