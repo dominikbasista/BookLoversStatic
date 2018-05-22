@@ -26,7 +26,7 @@ nav {
 
 nav div {
     width:205px;
-    height: 25;
+    /*height: 25;*/
     left: 5px;
     top: 7px;
     padding-right:10px;
@@ -37,7 +37,7 @@ nav div {
 
 nav div img {
     width:200px;
-    height: 25;
+    height: 25px;
 }
 
 nav ul{
@@ -114,7 +114,7 @@ nav ul li:hover ul{
     
     
     
-}
+
 
 
 .logo{
@@ -142,7 +142,7 @@ nav ul li:hover ul{
 
 }
 
-.arrow_bottom{
+.arrow_bottom_box{
     position: absolute;
     width: 40px;
     height: 40px;
@@ -152,15 +152,20 @@ nav ul li:hover ul{
     transform: translateX(-50%);
     bottom:15px;
 /*    text-align: center;*/
-    font-size: 15px;
     display: block;
-    
+
 }
-.arrow_bottom span {
-    width:10px;
-    height: 10px;
-    font-size: 10px;
+.arrow_bottom {
+    /*width:10px;*/
+    /*height: 10px;*/
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px !important;
     text-align: center;
+    color:red;
+    margin: 0;
+    text-align: center;
+
 }
 
 .section {
@@ -193,7 +198,7 @@ nav ul li:hover ul{
 }
 
 #slider{
-    position:reative;
+    position:relative;
     width:100%;
     height: 100%;
     
@@ -216,16 +221,20 @@ nav ul li:hover ul{
 }
 
 .book_desc{
+    display: block;
+    left:20px;
     font-family: "Roboto";
-    font-size: 10px;
+    font-size: 13px;
     color: darkred;
 }
 
 
-.book_img {
+.book_picture {
     position: absolute;
+    display: block;
     height: 100px;
     width: auto;
+    left: 20px;
     
     
 /*    float: left;*/
